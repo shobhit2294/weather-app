@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #222;
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    margin: 100px auto;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search{
+    display: flex;
+    gap: 10px;
+}
+
+.search-box {
+    position: relative;
+    width: 100%;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 12px;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #fff;
+    padding: 12px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.suggestions {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+    z-index: 10;
+}
+
+.suggestions div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestions div:hover {
+    background: #eee;
+}
+
+.weather{
+    margin-top: 30px;
+}
+
+.temp{
+    font-size: 60px;
+}
+
+.city{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.details{
+    font-size: 18px;*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #222;
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    margin: 100px auto;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search{
+    display: flex;
+    gap: 10px;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 12px;
+    border-radius: 30px;
+    flex: 1;
+    font-size: 16px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #fff;
+    padding: 12px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.weather{
+    margin-top: 30px;
+}
+
+.temp{
+    font-size: 60px;
+}
+
+.city{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.details{
+    font-size: 18px;
+}
+
+}
